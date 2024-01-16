@@ -1,0 +1,22 @@
+.book {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 30vw;
+    min-width: max-content;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(135, 206, 250, 0.4);
+    border-radius: 5px;
+}
+
+.book:hover {
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.year {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.year.old {
+    color: red;
+}
+
